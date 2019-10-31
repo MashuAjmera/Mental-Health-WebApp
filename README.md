@@ -6,5 +6,6 @@ You can view the prototypes for the following interfaces below:
 ### Large Screen Users
 ## Logged In Users
 ### Small Screen Users
+![image](https://github.com/MashuAjmera/Mental-Health/blob/master/assets/img/design.png)
 ### Medium Screen Users
 ### Large Screen Users
