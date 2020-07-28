@@ -4,7 +4,9 @@
   "description": "Mental Health Web App to make you feel positive",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix views && npm run build --prefix views"
   },
   "repository": {
     "type": "git",
@@ -21,10 +23,19 @@
   "bugs": {
     "url": "https://github.com/MashuAjmera/Mental-Health/issues"
   },
-  "homepage": "https://github.com/MashuAjmera/Mental-Health#readme",
+  "homepage": "https://app.dopamineplanet.com",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.9.7"
+    "mongoose": "^5.9.7",
+    "nodemailer": "^6.4.10",
+    "passport": "^0.4.1",
+    "passport-facebook-token": "^4.0.0",
+    "passport-google-token": "^0.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
