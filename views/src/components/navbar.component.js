@@ -1,13 +1,34 @@
-import react
-import react dom
+import React, { Component } from "react";
 
-class Navbar extends Components{
-	render(
-		return {
-			<Link to="/us" />
-			<Link to="/albums" />
-			<Link to="/" />
-			<Link to="/express" />
-			<Link to="/me" />
-	})
+export default class Navbar extends Component {
+  render() {
+    return (
+      <div class="mobile-bottom-nav">
+        <div class="">
+          <div class="">
+            <i class="material-icons">home</i>
+            one
+          </div>
+        </div>
+        <div class="">
+          <div class="">
+            <i class="">mail</i>
+            two
+          </div>
+        </div>
+        <div class="">
+          <div class="">
+            <i class="icons">person</i>
+            three
+          </div>
+        </div>
+        <div class="">
+          <div class="">
+            <i class="material-icons">phone</i>
+            four
+          </div>
+        </div>
+      </div>
+    );
+  }
 }

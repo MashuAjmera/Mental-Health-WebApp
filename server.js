@@ -1,11 +1,11 @@
 const express = require("express");
-const mongoose = require("mongoose");
+// const mongoose = require("mongoose");
 const path = require("path");
 const cors = require("cors");
 require("dotenv").config();
 
 const port = process.env.PORT;
-const uri = process.env.URI;
+// const uri = process.env.URI;
 
 // const albumsRouter = require("./routes/albums.route");
 // const dataRouter = require("./routes/auth.route");
