@@ -30,7 +30,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.9.7",
-    "nodemailer": "^6.4.10",
+    "nodemailer": "^6.4.16",
     "passport": "^0.4.1",
     "passport-facebook-token": "^4.0.0",
     "passport-google-token": "^0.1.2"
